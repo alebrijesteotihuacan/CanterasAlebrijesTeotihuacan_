@@ -1,0 +1,878 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Canteras Alebrijes Teotihuacan — Visorias de Fútbol Profesional. 4 días de entrenamiento intensivo con el cuerpo técnico de Tercera División Profesional. Hospedaje, alimentos y equipamiento incluido.">
+    <meta name="keywords"
+        content="canteras, alebrijes, teotihuacán, visorias fútbol, scouts, tercera división, fútbol profesional, fuerzas básicas">
+    <title>Canteras Alebrijes Teotihuacan | Visorias de Fútbol Profesional</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&family=Roboto:wght@400;500;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- ============================================
+         NAVIGATION
+    ============================================= -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#hero" class="nav-logo">
+                <img src="assets/logo.png" alt="Alebrijes Teotihuacan Logo" class="logo-img">
+                <span class="logo-text">CANTERAS <span class="accent">ALEBRIJES</span><span class="logo-tag"> · TEOTIHUACAN</span></span>
+            </a>
+
+            <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#hero" class="nav-link">Inicio</a></li>
+                <li><a href="#info" class="nav-link">Información</a></li>
+                <li class="hide-desktop"><a href="#requisitos" class="nav-link">Requisitos</a></li>
+                <li><a href="#incluye" class="nav-link">¿Qué Incluye?</a></li>
+                <li class="hide-desktop"><a href="#exito" class="nav-link">Casos de Éxito</a></li>
+                <li><a href="#programa" class="nav-link">Programa</a></li>
+                <li class="hide-desktop"><a href="#instalaciones" class="nav-link">Instalaciones</a></li>
+                <li class="hide-desktop"><a href="#ubicacion-contacto" class="nav-link">Ubicación y Contacto</a></li>
+                <li><a href="#pagos" class="nav-link">Pagos</a></li>
+                <li><a href="#ubicacion-contacto" class="nav-link nav-cta">Contacto</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- ============================================
+         HERO SECTION
+    ============================================= -->
+    <section class="hero" id="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-particles" id="particles"></div>
+        <div class="hero-glow"></div>
+        <div class="hero-bg-pattern"></div>
+        <div class="hero-content">
+            <div class="hero-badge">
+                <i class="fas fa-futbol"></i>
+            </div>
+
+            <h1 class="hero-title">
+                <span class="title-line">CANTERAS</span>
+                <span class="title-line accent">ALEBRIJES</span>
+                <span class="title-line sub">TEOTIHUACAN</span>
+            </h1>
+
+            <p class="hero-description">
+                Tu oportunidad de demostrar tu talento en <strong>4 días de entrenamiento intensivo</strong> ante el
+                cuerpo técnico de <strong>Tercera División Profesional</strong> — Fuerzas Básicas
+            </p>
+
+            <div class="hero-cta">
+                <a href="#pagos" class="btn btn-primary">
+                    <i class="fas fa-ticket-alt"></i>
+                    Reserva Tu Lugar
+                </a>
+                <a href="#info" class="btn btn-secondary">
+                    <i class="fas fa-info-circle"></i>
+                    Más Información
+                </a>
+            </div>
+
+            <div class="hero-stats">
+                <div class="stat-item">
+                    <span class="stat-number" data-count="4">4</span>
+                    <span class="stat-label">Días</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number">$4,500</span>
+                    <span class="stat-label">Inversión Total</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number">100%</span>
+                    <span class="stat-label">Profesional</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="scroll-indicator">
+            <span>Desliza para más</span>
+            <i class="fas fa-chevron-down"></i>
+        </div>
+    </section>
+
+    <!-- ============================================
+         INFO SECTION
+    ============================================= -->
+    <section class="section info-section" id="info">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-badge">Logística</span>
+                <h2 class="section-title">Información del Evento</h2>
+                <p class="section-subtitle">Todo lo que necesitas saber para participar en Canteras Alebrijes
+                    Teotihuacan</p>
+            </div>
+
+            <div class="info-grid">
+                <!-- Registration Card -->
+                <div class="info-card" data-aos="fade-up">
+                    <div class="card-icon">
+                        <i class="fas fa-clipboard-list"></i>
+                    </div>
+                    <h3 class="card-title">Registro</h3>
+                    <div class="card-content">
+                        <div class="info-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <strong>Lugar de Registro:</strong>
+                                <p>Calle Canteroco 587 Centro, Teotihuacán de Arista, Edo. Méx.</p>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-clock"></i>
+                            <div>
+                                <strong>Horario:</strong>
+                                <p>09:00 AM</p>
+                                <span class="badge-alert">
+                                    <i class="fas fa-exclamation-triangle"></i>
+                                    Puntualidad Obligatoria
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Venue Card -->
+                <div class="info-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="card-icon">
+                        <i class="fas fa-futbol"></i>
+                    </div>
+                    <h3 class="card-title">Sesiones Deportivas & Hospedaje</h3>
+                    <div class="card-content">
+                        <div class="info-item">
+                            <i class="fas fa-location-dot"></i>
+                            <div>
+                                <strong>Ubicación:</strong>
+                                <p>Centro Recreativo Pascual Boing, Curva la Garita S/N Atlatongo, Teotihuacán Edo.
+                                    México.</p>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-bed"></i>
+                            <div>
+                                <strong>Hospedaje incluido:</strong>
+                                <p>Los jugadores se quedan en las mismas instalaciones del Boing durante los 4 días del
+                                    evento.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Activities Card -->
+                <div class="info-card featured" data-aos="fade-up" data-aos-delay="200">
+                    <div class="card-icon">
+                        <i class="fas fa-running"></i>
+                    </div>
+                    <h3 class="card-title">Actividades</h3>
+                    <div class="card-content">
+                        <ul class="activity-list">
+                            <li>
+                                <i class="fas fa-check-circle"></i>
+                                Doble sesión de entrenamiento diaria
+                            </li>
+                            <li>
+                                <i class="fas fa-check-circle"></i>
+                                Supervisión por cuerpo técnico de Tercera División Profesional — Fuerzas Básicas
+                            </li>
+                            <li>
+                                <i class="fas fa-check-circle"></i>
+                                Entrenamientos especializados
+                            </li>
+                            <li>
+                                <i class="fas fa-check-circle"></i>
+                                Partidos amistosos
+                            </li>
+                            <li>
+                                <i class="fas fa-check-circle"></i>
+                                Sesión especial para porteros
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================
+         REQUISITOS SECTION
+    ============================================= -->
+    <section class="section requisitos-section" id="requisitos">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-badge">Preparación</span>
+                <h2 class="section-title">Requisitos</h2>
+                <p class="section-subtitle">Documentación y artículos necesarios para participar</p>
+            </div>
+
+            <div class="requisitos-wrapper">
+                <!-- Documentation -->
+                <div class="requisitos-block" data-aos="fade-right">
+                    <div class="block-header">
+                        <div class="block-icon">
+                            <i class="fas fa-file-alt"></i>
+                        </div>
+                        <h3>Documentación Requerida</h3>
+                        <span class="block-note">En copias</span>
+                    </div>
+
+                    <div class="docs-grid">
+                        <div class="doc-item">
+                            <i class="fas fa-scroll"></i>
+                            <span>Acta de nacimiento</span>
+                        </div>
+                        <div class="doc-item">
+                            <i class="fas fa-id-card"></i>
+                            <span>CURP</span>
+                        </div>
+                        <div class="doc-item">
+                            <i class="fas fa-address-card"></i>
+                            <div>
+                                <span>Identificación oficial del jugador</span>
+                                <small>(INE, credencial escolar, pasaporte, etc.)</small>
+                            </div>
+                        </div>
+                        <div class="doc-item">
+                            <i class="fas fa-user-shield"></i>
+                            <span>INE del padre o tutor</span>
+                        </div>
+                        <div class="doc-item">
+                            <i class="fas fa-file-medical"></i>
+                            <div>
+                                <span>Certificado médico</span>
+                                <small>(No mayor a 3 meses)</small>
+                            </div>
+                        </div>
+                        <div class="doc-item special">
+                            <i class="fas fa-file-signature"></i>
+                            <div>
+                                <span>Carta de confidencialidad</span>
+                                <small class="highlight">Se envía tras el anticipo</small>
+                            </div>
+                        </div>
+                        <div class="doc-item special">
+                            <i class="fas fa-clipboard-check"></i>
+                            <div>
+                                <span>Formato de permiso</span>
+                                <small class="highlight">Se envía tras el anticipo</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- What to Bring -->
+                <div class="requisitos-block" data-aos="fade-left">
+                    <div class="block-header">
+                        <div class="block-icon">
+                            <i class="fas fa-suitcase"></i>
+                        </div>
+                        <h3>¿Qué Traer?</h3>
+                    </div>
+
+                    <div class="bring-list">
+                        <div class="bring-item">
+                            <div class="bring-icon">
+                                <i class="fas fa-tshirt"></i>
+                            </div>
+                            <span>Ropa y calzado deportivo</span>
+                        </div>
+                        <div class="bring-item">
+                            <div class="bring-icon">
+                                <i class="fas fa-sun"></i>
+                            </div>
+                            <span>Bloqueador solar</span>
+                        </div>
+                        <div class="bring-item">
+                            <div class="bring-icon">
+                                <i class="fas fa-vest"></i>
+                            </div>
+                            <span>Ropa cómoda y chamarra</span>
+                        </div>
+                    </div>
+
+                    <div class="warning-box">
+                        <i class="fas fa-exclamation-circle"></i>
+                        <p><strong>Nota Importante:</strong> No traer objetos de valor.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================
+         QUE INCLUYE SECTION
+    ============================================= -->
+    <section class="section incluye-section" id="incluye">
+        <div class="container">
+            <div class="section-header light" data-aos="fade-up">
+                <span class="section-badge">Beneficios</span>
+                <h2 class="section-title">¿Qué Incluye tu Inversión?</h2>
+                <p class="section-subtitle">Todo lo que recibes con tu registro a Canteras Alebrijes Teotihuacan</p>
+            </div>
+
+            <div class="includes-grid">
+                <div class="include-card" data-aos="zoom-in">
+                    <div class="include-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h4>Seguro</h4>
+                    <p>Cobertura contra accidentes durante todo el evento</p>
+                </div>
+
+                <div class="include-card" data-aos="zoom-in" data-aos-delay="50">
+                    <div class="include-icon">
+                        <i class="fas fa-utensils"></i>
+                    </div>
+                    <h4>Alimentos</h4>
+                    <p>Alimentación completa durante los 4 días</p>
+                </div>
+
+                <div class="include-card" data-aos="zoom-in" data-aos-delay="100">
+                    <div class="include-icon">
+                        <i class="fas fa-bed"></i>
+                    </div>
+                    <h4>Hospedaje</h4>
+                    <p>Alojamiento en las instalaciones del Boing Teotihuacan</p>
+                </div>
+
+                <div class="include-card" data-aos="zoom-in" data-aos-delay="150">
+                    <div class="include-icon">
+                        <i class="fas fa-shoe-prints"></i>
+                    </div>
+                    <h4>Zapatera</h4>
+                    <p>Porta tacos incluido</p>
+                </div>
+
+                <div class="include-card" data-aos="zoom-in" data-aos-delay="200">
+                    <div class="include-icon">
+                        <i class="fas fa-shirt"></i>
+                    </div>
+                    <h4>Uniforme de Visoría</h4>
+                    <p>Kit completo para las pruebas deportivas</p>
+                </div>
+
+                <div class="include-card" data-aos="zoom-in" data-aos-delay="250">
+                    <div class="include-icon">
+                        <i class="fas fa-trophy"></i>
+                    </div>
+                    <h4>Reconocimiento</h4>
+                    <p>Constancia de participación avalada</p>
+                </div>
+
+                <div class="include-card" data-aos="zoom-in" data-aos-delay="300">
+                    <div class="include-icon">
+                        <i class="fas fa-video"></i>
+                    </div>
+                    <h4>Video Resumen</h4>
+                    <p>Highlights de tu desempeño en el evento</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================
+         CASOS DE ÉXITO SECTION
+    ============================================= -->
+    <section class="section exito-section" id="exito">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-badge">Reseñas</span>
+                <h2 class="section-title">Lo Que Dicen Los Participantes</h2>
+                <p class="section-subtitle">Experiencias reales de quienes vivieron la visoría en Teotihuacan</p>
+            </div>
+
+            <div class="exito-stats" data-aos="fade-up">
+                <div class="exito-stat-item">
+                    <span class="exito-stat-value">4.8</span>
+                    <span class="exito-stat-icon"><i class="fas fa-star"></i></span>
+                    <span class="exito-stat-label">Calificación Promedio</span>
+                </div>
+                <div class="exito-stat-divider"></div>
+                <div class="exito-stat-item">
+                    <span class="exito-stat-value">1500+</span>
+                    <span class="exito-stat-icon"><i class="fas fa-arrow-up"></i></span>
+                    <span class="exito-stat-label">Jugadores Visoriados</span>
+                </div>
+            </div>
+
+            <div class="exito-grid">
+                <div class="exito-card" data-aos="fade-up">
+                    <div class="exito-card-bg-quote"><i class="fas fa-quote-right"></i></div>
+                    <div class="exito-card-media">
+                        <div class="exito-card-img">
+                            <span class="exito-card-initials">CM</span>
+                        </div>
+                        <div class="exito-card-badge badge-green">Ene 2025</div>
+                    </div>
+                    <div class="exito-card-body">
+                        <div class="exito-card-stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <p class="exito-card-text">
+                            "Llegué sin saber qué esperar. Desde el primer día los coaches te hacen sentir
+                            como profesional. Corrigen tu técnica, te empujan a dar más y los scouts
+                            están atentos desde el primer partido. Me visoriaron el segundo día.
+                            Si tienes sueño de ser futbolista, este es el lugar."
+                        </p>
+                        <div class="exito-card-author">
+                            <span class="exito-card-name">Carlos Méndez</span>
+                            <span class="exito-card-role">Visoriado — Visoría Enero 2025</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="exito-card featured" data-aos="fade-up" data-aos-delay="100">
+                    <div class="exito-card-bg-quote"><i class="fas fa-quote-right"></i></div>
+                    <div class="exito-card-featured-tag">
+                        <i class="fas fa-medal"></i>
+                        Caso de Éxito
+                    </div>
+                    <div class="exito-card-media">
+                        <div class="exito-card-img">
+                            <span class="exito-card-initials">DR</span>
+                        </div>
+                        <div class="exito-card-badge badge-gold">Mar 2025</div>
+                    </div>
+                    <div class="exito-card-body">
+                        <div class="exito-card-stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p class="exito-card-text">
+                            "De todas las visorías a las que he asistido, esta es la más organizada
+                            y profesional. Instalaciones de primer nivel, entrenadores con experiencia
+                            real en fuerzas básicas y un ambiente de sana competencia. Firmé con un
+                            equipo de Tercera División gracias a esta oportunidad. 100% recomendada."
+                        </p>
+                        <div class="exito-card-author">
+                            <span class="exito-card-name">Diego Ramírez</span>
+                            <span class="exito-card-role">Firmó con Tercera División — Marzo 2025</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="exito-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="exito-card-bg-quote"><i class="fas fa-quote-right"></i></div>
+                    <div class="exito-card-media">
+                        <div class="exito-card-img">
+                            <span class="exito-card-initials">AT</span>
+                        </div>
+                        <div class="exito-card-badge badge-green">Feb 2025</div>
+                    </div>
+                    <div class="exito-card-body">
+                        <div class="exito-card-stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p class="exito-card-text">
+                            "El nivel de entrenamiento superó todo lo que esperaba. En 4 días
+                            trabajamos técnica, táctica, condición física y mentalidad. Los scouts
+                            estaban evaluando desde el primer momento. Te tratan como profesional
+                            desde que llegas. Sin duda repetiré en la próxima visoría."
+                        </p>
+                        <div class="exito-card-author">
+                            <span class="exito-card-name">Alejandro Torres</span>
+                            <span class="exito-card-role">Canalizado a Scout — Febrero 2025</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="exito-cta" data-aos="fade-up">
+                <p>¿Listo para escribir tu propia historia?</p>
+                <a href="#pagos" class="btn btn-primary">
+                    <i class="fas fa-ticket-alt"></i>
+                    Asegura Tu Lugar
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================
+         PROGRAMA / SCHEDULE SECTION
+    ============================================= -->
+    <section class="section programa-section" id="programa">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-badge">Itinerario</span>
+                <h2 class="section-title">Programa de 4 Días</h2>
+                <p class="section-subtitle">Una experiencia intensiva de formación profesional en Teotihuacan</p>
+            </div>
+
+            <div class="programa-grid">
+                <!-- Day 1 -->
+                <div class="programa-card" data-aos="fade-up">
+                    <div class="programa-card-header">
+                        <div class="programa-day-badge">Día 1</div>
+                        <div class="programa-day-name">Miércoles</div>
+                    </div>
+                    <div class="programa-card-icon">
+                        <i class="fas fa-clipboard-list"></i>
+                    </div>
+                    <h3 class="programa-card-title">Registro & Primera Sesión</h3>
+                    <ul class="programa-activities">
+                        <li><i class="fas fa-check"></i> Recepción y registro de jugadores</li>
+                        <li><i class="fas fa-check"></i> Entrega de uniforme y equipamiento</li>
+                        <li><i class="fas fa-check"></i> Instalación en hospedaje</li>
+                        <li><i class="fas fa-check"></i> Primera sesión de entrenamiento</li>
+                    </ul>
+                    <div class="programa-card-tag">
+                        Bienvenida
+                    </div>
+                </div>
+
+                <!-- Day 2 -->
+                <div class="programa-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="programa-card-header">
+                        <div class="programa-day-badge">Día 2</div>
+                        <div class="programa-day-name">Jueves</div>
+                    </div>
+                    <div class="programa-card-icon">
+                        <i class="fas fa-dumbbell"></i>
+                    </div>
+                    <h3 class="programa-card-title">Doble Sesión Intensiva</h3>
+                    <ul class="programa-activities">
+                        <li><i class="fas fa-check"></i> Sesión matutina de entrenamiento</li>
+                        <li><i class="fas fa-check"></i> Entrenamientos especializados por posición</li>
+                        <li><i class="fas fa-check"></i> Sesión vespertina con cuerpo técnico</li>
+                        <li><i class="fas fa-check"></i> Evaluación técnica individual</li>
+                    </ul>
+                    <div class="programa-card-tag">
+                        Intensivo
+                    </div>
+                </div>
+
+                <!-- Day 3 -->
+                <div class="programa-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="programa-card-header">
+                        <div class="programa-day-badge">Día 3</div>
+                        <div class="programa-day-name">Viernes</div>
+                    </div>
+                    <div class="programa-card-icon">
+                        <i class="fas fa-futbol"></i>
+                    </div>
+                    <h3 class="programa-card-title">Competencia & Evaluación</h3>
+                    <ul class="programa-activities">
+                        <li><i class="fas fa-check"></i> Doble sesión de entrenamiento</li>
+                        <li><i class="fas fa-check"></i> Sesión especial para porteros</li>
+                        <li><i class="fas fa-check"></i> Partidos amistosos</li>
+                        <li><i class="fas fa-check"></i> Supervisión de scouts de 3era División</li>
+                    </ul>
+                    <div class="programa-card-tag">
+                        Scouts activos
+                    </div>
+                </div>
+
+                <!-- Day 4 -->
+                <div class="programa-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="programa-card-header">
+                        <div class="programa-day-badge">Día 4</div>
+                        <div class="programa-day-name">Sábado</div>
+                    </div>
+                    <div class="programa-card-icon">
+                        <i class="fas fa-trophy"></i>
+                    </div>
+                    <h3 class="programa-card-title">Cierre & Resultados</h3>
+                    <ul class="programa-activities">
+                        <li><i class="fas fa-check"></i> Última sesión de entrenamiento</li>
+                        <li><i class="fas fa-check"></i> Partidos finales de evaluación</li>
+                        <li><i class="fas fa-check"></i> Retroalimentación del cuerpo técnico</li>
+                        <li><i class="fas fa-check"></i> Cierre del evento y despedida</li>
+                    </ul>
+                    <div class="programa-card-tag">
+                        Gran final
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================
+         INSTALACIONES / GALLERY SECTION
+    ============================================= -->
+    <section class="section galeria-section" id="instalaciones">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-badge">Instalaciones</span>
+                <h2 class="section-title">Centro Deportivo Pascual Boing</h2>
+                <p class="section-subtitle">Conoce las instalaciones donde vivirás la experiencia Canteras Alebrijes
+                </p>
+            </div>
+
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <img src="assets/galeria/Foto1.jpg" alt="Centro Deportivo Pascual Boing" loading="lazy">
+                </div>
+                <div class="gallery-item">
+                    <img src="assets/galeria/Foto2.jpg" alt="Centro Deportivo Pascual Boing" loading="lazy">
+                </div>
+                <div class="gallery-item">
+                    <img src="assets/galeria/Foto3.jpg" alt="Centro Deportivo Pascual Boing" loading="lazy">
+                </div>
+                <div class="gallery-item">
+                    <img src="assets/galeria/Foto4.jpg" alt="Centro Deportivo Pascual Boing" loading="lazy">
+                </div>
+                <div class="gallery-item">
+                    <img src="assets/galeria/Foto5.jpg" alt="Centro Deportivo Pascual Boing" loading="lazy">
+                </div>
+                <div class="gallery-item">
+                    <img src="assets/galeria/Foto6.jpg" alt="Centro Deportivo Pascual Boing" loading="lazy">
+                </div>
+                <div class="gallery-item">
+                    <img src="assets/galeria/Foto13.jpg" alt="Centro Deportivo Pascual Boing" loading="lazy">
+                </div>
+                <div class="gallery-item">
+                    <img src="assets/galeria/Foto14.jpg" alt="Centro Deportivo Pascual Boing" loading="lazy">
+                </div>
+                <div class="gallery-item">
+                    <img src="assets/galeria/Foto15.jpg" alt="Centro Deportivo Pascual Boing" loading="lazy">
+                </div>
+                <div class="gallery-item">
+                    <img src="assets/galeria/Foto18.jpg" alt="Centro Deportivo Pascual Boing" loading="lazy">
+                </div>
+                <div class="gallery-item">
+                    <img src="assets/galeria/Foto20.jpg" alt="Centro Deportivo Pascual Boing" loading="lazy">
+                </div>
+                <div class="gallery-item">
+                    <img src="assets/galeria/Foto22.jpg" alt="Centro Deportivo Pascual Boing" loading="lazy">
+                </div>
+                <div class="gallery-item">
+                    <img src="assets/galeria/Fisioterapeutas.jpg" alt="Fisioterapeutas" loading="lazy">
+                </div>
+                <div class="gallery-item">
+                    <img src="assets/galeria/Hidratacion.jpg" alt="Hidratación" loading="lazy">
+                </div>
+                <div class="gallery-item">
+                    <img src="assets/galeria/Actividades.jpg" alt="Actividades Deportivas" loading="lazy">
+                </div>
+                <div class="gallery-item">
+                    <img src="assets/galeria/Transmision.jpg" alt="Transmisión de Partidos" loading="lazy">
+                </div>
+                <div class="gallery-item">
+                    <img src="assets/galeria/Hospedaje1.jpg" alt="Hospedaje Centro Recreativo Pascual" loading="lazy">
+                </div>
+                <div class="gallery-item">
+                    <img src="assets/galeria/GrupoJugadores.jpg" alt="Grupo de jugadores" loading="lazy">
+                </div>
+                <div class="gallery-item">
+                    <img src="assets/galeria/Hospedaje2.jpg" alt="Hospedaje Centro Recreativo Pascual" loading="lazy">
+                </div>
+                <div class="gallery-item">
+                    <img src="assets/galeria/Foto16.jpg" alt="Centro Deportivo Pascual Boing" loading="lazy">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Lightbox -->
+    <div class="lightbox" id="lightbox">
+        <button class="lightbox-close" id="lightboxClose" aria-label="Cerrar">
+            <i class="fas fa-times"></i>
+        </button>
+        <img src="" alt="Vista ampliada" id="lightboxImg">
+    </div>
+
+    <!-- ============================================
+         UBICACIÓN Y CONTACTO
+    ============================================= -->
+    <section class="section ubicacion-contacto-section" id="ubicacion-contacto">
+        <div class="container">
+            <div class="section-header light" data-aos="fade-up">
+                <span class="section-badge">Ubicación y Contacto</span>
+                <h2 class="section-title">¿Cómo Llegar?</h2>
+                <p class="section-subtitle">Centro Recreativo Pascual Boing — Teotihuacán, Estado de México</p>
+            </div>
+
+            <div class="uc-grid" data-aos="fade-up">
+                <!-- Left: Map -->
+                <div class="uc-map-col">
+                    <div class="map-wrapper">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3756.7711050379544!2d-98.90706122412882!3d19.679768432739674!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1eb9fd5d28d63%3A0xd05dcf60d95d0bfd!2sCentro%20Recreativo%20Pascual!5e0!3m2!1ses-419!2smx!4v1770695375497!5m2!1ses-419!2smx"
+                            width="100%" height="300" style="border:0;" allowfullscreen=""
+                            loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+                        </iframe>
+                    </div>
+                    <div class="map-address">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <strong>Centro Recreativo Pascual Boing</strong>
+                            <span>Teotihuacán, Estado de México</span>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- Right: Contact -->
+                <div class="uc-contact-col" data-aos="fade-up" data-aos-delay="100">
+                    <div class="uc-contact-card">
+                        <div class="uc-contact-avatar">
+                            <i class="fas fa-user-tie"></i>
+                        </div>
+                        <span class="uc-contact-role">Coordinadora</span>
+                        <h3 class="uc-contact-name">Athziri Velazquez</h3>
+                        <a href="https://wa.me/525621289945" target="_blank" class="uc-contact-phone">
+                            <i class="fab fa-whatsapp"></i>
+                            56 2128 9945
+                        </a>
+                        <a href="https://wa.me/525621289945?text=Hola%2C%20me%20interesa%20informaci%C3%B3n%20sobre%20Canteras%20Alebrijes%20Teotihuacan"
+                           target="_blank" class="btn btn-whatsapp">
+                            <i class="fab fa-whatsapp"></i>
+                            Enviar Mensaje
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section pagos-section" id="pagos">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-badge">Inversión</span>
+                <h2 class="section-title">Costos y Pagos</h2>
+                <p class="section-subtitle">Asegura tu lugar con el anticipo</p>
+            </div>
+
+            <div class="pagos-wrapper">
+                <!-- Pricing Card -->
+                <div class="pricing-card" data-aos="fade-up">
+                    <div class="pricing-header">
+                        <span class="pricing-label">Inversión Total</span>
+                        <div class="pricing-amount">
+                            <span class="currency">$</span>
+                            <span class="value">4,500</span>
+                            <span class="period">MXN</span>
+                        </div>
+                    </div>
+
+                    <div class="pricing-body">
+                        <div class="advance-payment">
+                            <div class="advance-icon">
+                                <i class="fas fa-hand-holding-usd"></i>
+                            </div>
+                            <div class="advance-info">
+                                <span class="advance-label">Anticipo Necesario</span>
+                                <span class="advance-amount">$1,000 MXN</span>
+                            </div>
+                        </div>
+
+                        <p class="payment-note">
+                            El anticipo asegura tu lugar. El resto se liquida el día del evento.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Bank Details Card -->
+                <div class="bank-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="bank-header">
+                        <i class="fas fa-university"></i>
+                        <h3>Datos Bancarios</h3>
+                    </div>
+
+                    <div class="bank-info">
+                        <div class="bank-row">
+                            <span class="bank-label">Banco:</span>
+                            <span class="bank-value bank-accent">BANCO AZTECA</span>
+                        </div>
+
+                        <div class="bank-row">
+                            <span class="bank-label">Beneficiario:</span>
+                            <span class="bank-value">Athziri Velazquez</span>
+                        </div>
+
+                        <div class="bank-row copyable" onclick="copyToClipboard('4027 6661 2037 9168', this)">
+                            <span class="bank-label">Tarjeta Débito:</span>
+                            <span class="bank-value">4027 6661 2037 9168</span>
+                            <button class="copy-btn" title="Copiar">
+                                <i class="fas fa-copy"></i>
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="bank-note">
+                        <i class="fas fa-info-circle"></i>
+                        <span>Envía tu comprobante de pago al WhatsApp de contacto</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================
+         FOOTER
+    ============================================= -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <img src="assets/logo.png" alt="Canteras Alebrijes Teotihuacan" class="footer-logo">
+                    <span class="footer-title">Canteras Alebrijes Teotihuacan 2026</span>
+                </div>
+
+                <div class="footer-legal">
+                    <div class="legal-notice">
+                        <i class="fas fa-exclamation-triangle"></i>
+                        <div class="legal-text">
+                            <h4>Aviso Importante</h4>
+                            <p>
+                                Las visorias no tienen costo, el pago cubre únicamente servicios de logística,
+                                hospedaje, alimentación y equipamiento.
+                                <strong>Cupo limitado.</strong> No hay reembolsos. No incluye transporte.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="footer-bottom">
+                    <p>&copy; 2026 Canteras Alebrijes Teotihuacan. Todos los derechos reservados.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button class="back-to-top" id="backToTop" aria-label="Volver arriba">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- Floating WhatsApp Button -->
+    <a href="https://wa.me/525621289945?text=Hola%2C%20me%20interesa%20informaci%C3%B3n%20sobre%20Canteras%20Alebrijes%20Teotihuacan"
+       target="_blank"
+       class="whatsapp-float"
+       aria-label="Contactar por WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <script src="script.js"></script>
+</body>
+
+
+</html>
