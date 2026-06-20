@@ -2239,6 +2239,58 @@ ul {
     letter-spacing: 1px;
 }
 
+/* Payment methods (multiple methods inside a single bank card) */
+.payment-method {
+    padding: var(--spacing-xl) var(--spacing-2xl);
+    border-top: 1px solid var(--border-glass);
+}
+
+.payment-method:first-of-type {
+    border-top: none;
+    padding-top: 0;
+}
+
+.payment-method-title {
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-sm);
+    margin-bottom: var(--spacing-sm);
+    flex-wrap: wrap;
+}
+
+.payment-method-title > i {
+    color: var(--primary);
+    font-size: 1rem;
+}
+
+.payment-method-title > span:first-of-type {
+    font-family: var(--font-primary);
+    font-size: 0.95rem;
+    font-weight: 700;
+    color: var(--white);
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+}
+
+.method-tag {
+    display: inline-block;
+    font-family: var(--font-primary);
+    font-size: 0.65rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: var(--primary-light);
+    background: rgba(232, 93, 4, 0.12);
+    border: 1px solid rgba(232, 93, 4, 0.25);
+    padding: 2px 8px;
+    border-radius: var(--radius-full);
+    margin-left: auto;
+}
+
+.payment-method .bank-info {
+    padding: 0;
+}
+
 .bank-note {
     display: flex;
     align-items: center;
